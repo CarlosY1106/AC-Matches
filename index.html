@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - AC Matches</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">
+        <img src="media/Logotipo.jpg" alt="AC Matches Logo" height="60">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contáctanos</a></li>
+          <li class="nav-item"><a class="nav-link" href="autores.html">Autores</a></li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+ <!-- Carrusel -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide mt-5" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="media/Logotipo.jpg" class="d-block w-100 carousel-img" alt="Logotipo AC Matches">
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="media/Celular.jpg" class="d-block w-100 carousel-img" alt="Conexión deportiva">
+      <div class="carousel-caption d-none d-md-block bg-light bg-opacity-75 rounded p-3">
+        <h5 class="fw-bold text-primary">Siempre conectados al deporte</h5>
+        <p class="text-dark">Desde la comodidad de tu celular.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="media/Nota.jpg" class="d-block w-100 carousel-img" alt="Conectando Pasiones">
+      <div class="carousel-caption d-none d-md-block bg-light bg-opacity-75 rounded p-3">
+        <h5 class="fw-bold text-primary">Conectando Pasiones</h5>
+        <p class="text-dark">En cada partido, cada jugada, cada emoción.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="media/Balones.jpg" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Siempre pendientes del balón:</h5>
+          <p class="card-text">Te mantenemos informado sobre todo lo que sucede en el mundo del fútbol.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="media/Botellas.jpg" class="card-img-top" alt="Imagen 2">
+        <div class="card-body">
+          <h5 class="card-title">Siempre hidratados:</h5>
+          <p class="card-text">Resaltamos la importancia de mantenerse hidratado durante los partidos para saciar tu sed de fútbol.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="media/Camisas.jpg" class="card-img-top" alt="Imagen 3">
+        <div class="card-body">
+          <h5 class="card-title">Siempre listos para el partido:</h5>
+          <p class="card-text">Te traemos la mejor información sobre las camisetas y equipaciones de tus equipos favoritos.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Contenido -->
+<section class="row my-5 align-items-center">
+    
+    <div class="col-md-6">
+        <h2 class="text-primary fw-bold mb-3">Nuestra Pasión: Vivimos el Deporte</h2>
+        <p class="lead">
+            En <strong>AC MATCHES</strong> te ofrecemos las últimas <strong>noticias deportivas</strong>, análisis de partidos, resultados en tiempo real y cobertura de tus equipos favoritos. Nuestro objetivo es mantenerte siempre al día con la emoción del deporte.
+        </p>
+        
+        <a href="noticias.html" class="btn btn-outline-primary btn-lg mt-3">Explora las Últimas Noticias</a>
+    </div>
+
+    <div class="col-md-6 mt-4 mt-md-0">
+        <h3 class="mb-4">Nuestros Indicadores de Impacto</h3>
+        
+        <div class="mb-3">
+            <label class="form-label">Seguidores Satisfechos (95%)</label>
+            <div class="progress" role="progressbar" aria-label="Seguidores" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-success" style="width: 95%"></div>
+            </div>
+        </div>
+        
+        <div class="mb-3">
+            <label class="form-label">Cobertura de Eventos Deportivos (85%)</label>
+            <div class="progress" role="progressbar" aria-label="Cobertura" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-info" style="width: 85%"></div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Actualización en Tiempo Real (90%)</label>
+            <div class="progress" role="progressbar" aria-label="Actualización" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-warning" style="width: 90%"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-4 mt-5">
+  <div class="container">
+    <p class="mb-1">© 2025 AC Matches. Todos los derechos reservados.</p>
+    <p class="mb-1">Sitio desarrollado como <strong>prueba acumulativa</strong> para la clase de <strong>Programación Web 1.</strong></p>
+    <p class="mb-1">Ingeniero: <strong>Ángel Ramón Páz López</strong></p>
+    <p class="mb-0">Alumnos: <strong>Angie Daniela Pineda Hernández</strong> y <strong>Carlos Yahir Chávez Guzmán</strong></p>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
